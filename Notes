@@ -1,0 +1,6 @@
+Notes:
+1) Try to create Linked List as Class Member so that when hash is calcculated it is automatically added to the blockchain.
+
+2)Allow access to the Blockchain created outside to the isvalid function
+
+3)String target = new String(new char[difficulty]).replace('\0', '0'); //Create a string with difficulty * "0" WT...
