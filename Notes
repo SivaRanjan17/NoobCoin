@@ -4,3 +4,5 @@ Notes:
 2)Allow access to the Blockchain created outside to the isvalid function
 
 3)String target = new String(new char[difficulty]).replace('\0', '0'); //Create a string with difficulty * "0" WT...
+
+https://davenash.com/2017/10/build-a-blockchain-with-c/
