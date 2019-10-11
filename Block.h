@@ -1,5 +1,7 @@
 #include <cstdint>
 #include <iostream>
+#include "Transaction.h"
+#include <vector>
 
 using namespace std;
 
@@ -15,6 +17,10 @@ public:
 
     void MineBlock (uint32_t Difficulty);
 
+    Block();
+
+    string getMerkleRoot();
+
 private:
 
     uint32_t Index;
@@ -22,6 +28,7 @@ private:
     string Data;
     string Hash;
     time_t Time;
+    //Transaction transaction;
 
     string CalculateHash() const;
 };

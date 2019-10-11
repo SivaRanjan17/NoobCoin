@@ -5,18 +5,25 @@
 #include <vector>
 #include <iostream>
 #include "Block.h"
+#include<cstdio>
+#include<cstdlib>
+
+struct Node
+{
+    Block block;
+    Node *next;
+    Node *prev;
+};
 
 using namespace std;
-
 
 class Blockchain
 {
     public:
-        Blockchain();
 
+        Blockchain();
         void AddBlock(Block bNew);
         void isChainValid();
-
 
     protected:
 
@@ -26,6 +33,8 @@ class Blockchain
         vector<Block> Chain;
 
         Block GetLastBlock() const;
+
+        Node *start;
 };
 
 #endif // BLOCKCHAIN_H

@@ -1,0 +1,80 @@
+# depslib dependency file v1.0
+1540886157 source:d:\my folder\projects\noobcoin\main.cpp
+	<iostream>
+	<stdlib.h>
+	"Transaction.h"
+	"Wallet.h"
+	"Blockchain.h"
+
+1531968639 d:\my folder\projects\noobcoin\picosha2.h
+	<algorithm>
+	<cassert>
+	<iterator>
+	<sstream>
+	<vector>
+	<fstream>
+
+1540884359 d:\my folder\projects\noobcoin\blockchain.h
+	<cstdint>
+	<vector>
+	<iostream>
+	"Block.h"
+	<cstdio>
+	<cstdlib>
+
+1540801473 d:\my folder\projects\noobcoin\block.h
+	<cstdint>
+	<iostream>
+	"Transaction.h"
+	<vector>
+
+1540801473 source:d:\my folder\projects\noobcoin\block.cpp
+	"Block.h"
+	"sha256.h"
+	<time.h>
+	<bits/stdc++.h>
+
+1539083793 d:\my folder\projects\noobcoin\sha256.h
+	<string>
+
+1540886963 source:d:\my folder\projects\noobcoin\blockchain.cpp
+	"Blockchain.h"
+	<iostream>
+	<vector>
+
+1539085835 source:d:\my folder\projects\noobcoin\sha256.cpp
+	<cstring>
+	<fstream>
+	"sha256.h"
+
+1540886162 source:d:\my folder\projects\noobcoin\wallet.cpp
+	"Wallet.h"
+	<stdlib.h>
+
+1540886150 d:\my folder\projects\noobcoin\wallet.h
+	<stdlib.h>
+	<iostream>
+
+1540886126 source:d:\my folder\projects\noobcoin\transaction.cpp
+	"Transaction.h"
+	"sha256.h"
+	<bits/stdc++.h>
+	"Wallet.h"
+	<iostream>
+	<sstream>
+
+1540885139 d:\my folder\projects\noobcoin\transaction.h
+	<iostream>
+	"Wallet.h"
+
+1540884363 d:\my folder\projects\noobcoin\doublyll.h
+	<iostream>
+	<cstdio>
+	<cstdlib>
+
+1540884363 source:d:\my folder\projects\noobcoin\doublyll.cpp
+	"DoublyLL.h"
+	<iostream>
+	<cstdio>
+	<cstdlib>
+
